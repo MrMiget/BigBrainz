@@ -1,0 +1,40 @@
+@media screen {
+	.noScreen{display:none;}
+}
+@media print {
+	.noScreen{}
+  @page {size: landscape}
+  body * {
+    visibility: hidden;
+  }
+  .printer, .printer * {
+    visibility: visible;
+  }
+  .printer {
+		width:511pt;
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+/*
+     FILE ARCHIVED ON 20:41:12 Nov 10, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:41:28 Jul 05, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 162.125
+  exclusion.robots: 0.078
+  exclusion.robots.policy: 0.069
+  cdx.remote: 0.056
+  esindex: 0.008
+  LoadShardBlock: 138.317 (3)
+  PetaboxLoader3.datanode: 50.654 (4)
+  load_resource: 298.235
+  PetaboxLoader3.resolve: 286.03
+*/
