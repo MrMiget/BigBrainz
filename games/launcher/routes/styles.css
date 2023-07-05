@@ -1,0 +1,291 @@
+/* 
+    Document   : styles
+    Created on : Jul 10, 2012, 10:27:53 AM
+    Author     : bigbrainz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.no-icon {
+	display : none;
+	background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/routes/ext/resources/images/default/s.gif') !important;
+}
+.testing { font-family: "Calibri", serif; font-size:24pt; font-style:italic; }
+div#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+}
+div#banner-content {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/BannerMid.png') !important;
+  width:99.50%;
+  height: 100%;
+  float:left;
+}
+div#banner-left{
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/BannerLeft.PNG') !important;
+  width:.25%;
+  background-repeat:no-repeat;
+  height: 100%;
+  float:left;
+}
+div#banner-right{
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/BannerRight.png') !important;
+  width:.25%;
+  background-repeat:no-repeat;
+  height: 100%;
+  float:left;
+}
+div#logo {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/BigBrainz.png') !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 90px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+div#il-logo-on {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Imagine Learning Logo 4.png') !important;
+  position: absolute;
+  background-position:right;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#deluxe {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/UnlockDeluxe.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#deluxeunlocked {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/DeluxeUnlocked.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#deluxe:hover {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/UnlockDeluxeHover.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#pilotdeluxe {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/PilotDeluxe.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#pilotunlocked {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/PilotUnlocked.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#pilotdeluxe:hover {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/PilotDeluxeHover.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#pizza {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Free-Pizza-Party.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+div#pizza:hover {
+  background-image:url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Free-Pizza-Party-Hover.png') !important;
+  position: absolute;
+  background-position:center center;
+  width: 100%;
+  height: 90px;
+  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+}
+.x-panel-header {
+  text-align: center;
+}
+.x-panel-header-text {
+  font-size:150%
+}
+.x-tab-inner {
+  font-size:125%
+}
+
+.apple-icon {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Apple-Icon_16x16.png') !important;
+  height: 16px;
+  width: 16px;
+  background-repeat:no-repeat;
+}
+.student-icon {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Student-Icon_16x16.png') !important;
+  height: 16px;
+  width: 16px;
+  background-repeat:no-repeat;
+}
+.school-icon {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/School-Icon_16x16.png') !important;
+  height: 16px;
+  width: 16px;
+  background-repeat:no-repeat;
+}
+.x-column-header-text {
+  text-align: center;
+}
+
+
+.center-cell  {
+  text-align: center;
+  font-weight:bold;
+}
+.x-tree-icon-leaf {
+    background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Student-Icon_16x16.png');
+    width: 16px;
+}
+.x-tree-icon-parent {
+    background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Apple-Icon_16x16.png');
+    width: 16px;
+}
+/*
+.x-grid-tree-node-expanded {
+    background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/Apple-Icon_16x16.png');
+    width: 16px;
+}
+*/
+.treenode-no-icon
+{
+    display : none !important;
+}
+table.progressGrid {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.progressGrid td {
+  width: 80px;
+  height: 40px;
+  margin: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  /* padding: 15px 15px 15px 15px; */
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/FactProgressButton80_Gray.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+  /*
+  text-shadow: 
+    -1px -1px 3px white,
+    1px -1px 3px white,
+    -1px 1px 3px white,
+    1px 1px 3px white;
+    */
+}
+.pizzaclassred
+{
+  color:#FF0000;
+}
+.pizzaclassred a span
+{
+  color:#FF0000;
+}
+.progressGrid .passed {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/FactProgressButton80_Green.png');
+}
+
+.progressGrid .ready {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/FactProgressButton80_Blue.png');
+}
+
+.progressGrid .inProgress {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/FactProgressButton80_Yellow.png');
+}
+
+.progressGrid .missed {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/FactProgressButton80_Red.png');
+}
+
+.progressGrid .notTested {
+  visibility:hidden;
+}
+
+.mult-icon {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/mult-icon.png') !important;
+}
+.div-icon {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/div-icon.png') !important;
+}
+.addsub-icon {
+  background-image: url('/web/20131211195213im_/http://bigbrainz.com/games/launcher/images/addsub-icon.png') !important;
+}
+.no-image .x-mask-msg-text {
+  background-image: none;
+}
+/*
+     FILE ARCHIVED ON 19:52:13 Dec 11, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:40:54 Jul 05, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 50.305
+  exclusion.robots: 0.112
+  exclusion.robots.policy: 0.101
+  RedisCDXSource: 2.309
+  esindex: 0.008
+  LoadShardBlock: 29.779 (3)
+  PetaboxLoader3.datanode: 37.834 (4)
+  load_resource: 70.687
+  PetaboxLoader3.resolve: 58.628
+*/
